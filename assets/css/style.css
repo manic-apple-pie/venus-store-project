@@ -3128,3 +3128,20 @@ hr {
 }
 /* END BAG PAGE */
 }
+
+.translate {
+    padding: .1rem;
+    font-size: .8rem;
+    color:rgb(52, 52, 52);
+    background-color:rgb(158, 158, 158, .5);
+    border-radius: 2rem;
+}
+
+.translate:hover {
+    cursor: pointer;
+}
+
+.tr-item {
+    display: flex;
+    flex-direction: column;
+}
