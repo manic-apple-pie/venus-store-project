@@ -3149,3 +3149,8 @@ hr {
 #romanian { 
     display:none; 
 }
+
+.lang-changer {
+    margin-top: 2rem;
+    text-align: center;
+}

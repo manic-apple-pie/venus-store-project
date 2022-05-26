@@ -32,13 +32,6 @@
             </div>
             <div class="flex-menu-item">
                <a href="/venus-store-project/" class="nav-brand-logo">VENUS</a>
-               <div class="change-language">
-                <p id="toggle">
-                    <span> Left </span>
-                    <span> Right </span>
-                </p>
-                
-               </div>
             </div>
             <div class="flex-menu-item">
                 <ul class="nav-menu">
@@ -277,8 +270,11 @@
                     <button type="submit" class="join-email">Join</button>
                 </form>
             </div>
+            <div class="lang-changer" id="toggle">
+            <button class="join-email">EN</button>
+            <button class="join-email">RO</button>
+        </div>
             <div class="flex-footer">
-
 
                 <div>
                     <a href="c-service.html"><h3>Customer Service</h3></a>
@@ -373,13 +369,6 @@
             </div>
             <div class="flex-menu-item">
                <a href="/venus-store-project/" class="nav-brand-logo">VENUS</a>
-               <div class="change-language">
-                <p id="toggle">
-                    <span> Left </span>
-                    <span> Right </span>
-                </p>
-                
-               </div>
             </div>
             <div class="flex-menu-item">
                 <ul class="nav-menu">
@@ -617,6 +606,10 @@
                     <input type="email" placeholder="Your email address">
                     <button type="submit" class="join-email">Join</button>
                 </form>
+            </div>
+            <div class="lang-changer" id="toggle">
+                <button class="join-email">EN</button>
+                <button class="join-email">RO</button>
             </div>
             <div class="flex-footer">
 
@@ -766,7 +759,7 @@
 
     <script>
         $(function() {        
-            $('#toggle > span').click(function() {
+            $('#toggle > button').click(function() {
     var ix = $(this).index();
 
     $('#english').toggle( ix === 0 );
