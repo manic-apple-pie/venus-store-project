@@ -3145,3 +3145,7 @@ hr {
     display: flex;
     flex-direction: column;
 }
+
+#romanian { 
+    display:none; 
+}
