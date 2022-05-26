@@ -116,6 +116,10 @@
                     <button type="submit" class="join-email">Join</button>
                 </form>
             </div>
+            <div class="lang-changer" id="toggle">
+                <button class="join-email">EN</button>
+                <button class="join-email">RO</button>
+            </div>
             <div class="flex-footer">
 
 
@@ -200,6 +204,16 @@
             window.location.href = "/venus-store-project/index.html#newarrivals"
         })
     </script>
+        <script>
+            $(function() {        
+                $('#toggle > button').click(function() {
+        var ix = $(this).index();
+    
+        $('#english').toggle( ix === 0 );
+        $('#romanian').toggle( ix === 1 );
+    });  
+            });
+        </script>   
 </body>
 
 </html>
