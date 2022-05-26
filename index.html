@@ -13,675 +13,718 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Venus - Home Page</title>
 </head>
+
 <body>
-<div id="english">
-    <header class="first-page">
-        <nav class="navbar">
-            <div class="flex-menu-item">
-                <ul class="nav-menu navbar-animation">
-                    <li class="nav-item" id="arrivals-el">
-                        <a href="#newarrivals" class="nav-link"><span id="newArrivals-el">New arrivals</span></a>
-                    </li>
-                    <li class="nav-item" id="shop-el">
-                        <a href="" class="nav-link">Shop</a>
-                    </li>
-                    <li class="nav-item" id="collections-el">
-                        <a href="#" class="nav-link lang" key="collections">Collections</a>
-                    </li>
-                </ul>
+    <div id="english">
+        <header class="first-page">
+            <nav class="navbar">
+                <div class="flex-menu-item">
+                    <ul class="nav-menu navbar-animation">
+                        <li class="nav-item" id="arrivals-el">
+                            <a href="#newarrivals" class="nav-link"><span id="newArrivals-el">New arrivals</span></a>
+                        </li>
+                        <li class="nav-item" id="shop-el">
+                            <a href="" class="nav-link">Shop</a>
+                        </li>
+                        <li class="nav-item" id="collections-el">
+                            <a href="#" class="nav-link lang" key="collections">Collections</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-menu-item">
+                    <a href="/venus-store-project/" class="nav-brand-logo">VENUS</a>
+                </div>
+                <div class="flex-menu-item">
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <div class="search-box">
+                                <button class="btn-search"></button>
+                                <input type="text" id="search-btn" class="input-search" placeholder="SEARCH">
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <span class="nav-link-right sign-modal" id="myBtn">Sign In</span>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link-right" id="myBagBtn">Bag (2)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/venus-store-project/favourites.html"><img src="assets/images/wishlist-icon.png"
+                                    height="24"></a>
+                        </li>
+                    </ul>
+            </nav>
+            <div class="hamburger-menu">
+                <nav>
+                    <div class="h-navbar">
+                        <div class="h-container h-nav-container">
+                            <input class="checkbox" type="checkbox" name="" id="" />
+                            <div class="h-hamburger-lines">
+                                <span class="h-line h-line1"></span>
+                                <span class="h-line h-line2"></span>
+                                <span class="h-line h-line3"></span>
+                            </div>
+                            <div class="h-logo">
+                                <a href="/venus-store-project/">
+                                    <h1>VENUS</h1>
+                                </a>
+                            </div>
+                            <div class="h-menu-right">
+                                <img src="/venus-store-project/assets/images/search-icon-h.png">
+                                <a href="/venus-store-project/bag.html"><img
+                                        src="/venus-store-project/assets/images/shopping-cart-icon.png"></a>
+                                <a href="/venus-store-project/favourites.html"><img
+                                        src="/venus-store-project/assets/images/wishlist-icon-h.png"></a>
+                            </div>
+                            <div class="h-menu-items">
+                                <li><a href="/venus-store-project/#newarrivals">NEW ARRIVALS</a></li>
+                                <li><a href="/venus-store-project/shop.html">SHOP</a></li>
+                                <li><a href="/venus-store-project/collections.html">COLLECTIONS</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
             </div>
-            <div class="flex-menu-item">
-               <a href="/venus-store-project/" class="nav-brand-logo">VENUS</a>
-            </div>
-            <div class="flex-menu-item">
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                        <div class="search-box">
-                            <button class="btn-search"></button>
-                            <input type="text" id="search-btn" class="input-search" placeholder="SEARCH">
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <span class="nav-link-right sign-modal" id="myBtn">Sign In</span>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link-right" id="myBagBtn">Bag (2)</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/venus-store-project/favourites.html"><img src="assets/images/wishlist-icon.png" height="24"></a>
-                    </li>
-                </ul>
-        </nav>
-        <div class="hamburger-menu">
-            <nav>
-                <div class="h-navbar">
-                  <div class="h-container h-nav-container">
-                      <input class="checkbox" type="checkbox" name="" id="" />
-                      <div class="h-hamburger-lines">
-                        <span class="h-line h-line1"></span>
-                        <span class="h-line h-line2"></span>
-                        <span class="h-line h-line3"></span>
-                      </div>  
-                    <div class="h-logo">
-                      <a href="/venus-store-project/"><h1>VENUS</h1></a>
-                    </div>
-                    <div class="h-menu-right">
-                        <img src="/venus-store-project/assets/images/search-icon-h.png">
-                        <a href="/venus-store-project/bag.html"><img src="/venus-store-project/assets/images/shopping-cart-icon.png"></a>
-                        <a href="/venus-store-project/favourites.html"><img src="/venus-store-project/assets/images/wishlist-icon-h.png"></a>
-                      </div>
-                    <div class="h-menu-items">
-                      <li><a href="/venus-store-project/#newarrivals">NEW ARRIVALS</a></li>
-                      <li><a href="/venus-store-project/shop.html">SHOP</a></li>
-                      <li><a href="/venus-store-project/collections.html">COLLECTIONS</a></li>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-        </div>
-    </header>
-    <main>
-        <section class="new-arrivals-section">
-            <h1>New collection</h1>
-            <p>Our easiest chuck-on-and-go staples come with a serious style heritage<span class="p-space"></span>
-                that’s liberating, sexy, comfy and supremely cool.</p>
-            <button id="newarr-el">Shop new arrivals</button>
-        </section>
-        <section class="show-three-products">
-            <div class="flex-third-section">
-                <div class="image-container">
-                    <img src="assets/images/image 8.png" alt="" class="image">
-                    <div class="middle">
-                        <div class="image-text">Pacifica bandits denim short</div>
-                        <div class="flex-images-info">
-                            <div class="price-text">$99.00</div>
-                            <div class="add-to-favorites"><img src="assets/images/wshl.png" height="30"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="assets/images/image 10.png" alt="" class="image">
-                    <div class="middle">
-                        <div class="image-text">Pacifica bandits denim short</div>
-                        <div class="flex-images-info">
-                            <div class="price-text">$99.00</div>
-                            <div class="add-to-favorites"><img src="assets/images/wshl.png" height="30"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="assets/images/image 9.png" alt="" class="image">
-                    <div class="middle">
-                        <div class="image-text">Pacifica bandits denim short</div>
-                        <div class="flex-images-info">
-                            <div class="price-text">$99.00</div>
-                            <div class="add-to-favorites"><img src="assets/images/wshl.png" height="30"></div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-        <section class="third-section">
-            <div class="shop-denim">
-                <h1>Sustainable denim</h1>
-                <p>What started as a true ‘80s vintage pair of jeans,<span class="p-space"></span> finished as a
-                    re-energised, wider leg vintage jean with versatile detailing. </p>
-                <button>Shop denim</button>
-            </div>
-        </section>
-        <div class="container">
-            <section class="show-new-arrivals-section" id="newarrivals">
-                <h2>New arrivals</h2>
-                <div class="four-images">
-                    <div class="fourth-image-container">
-                        <img src="assets/images/image 11.png" alt="" class="fourth-image">
-                        <div class="fourth-middle">
-                            <div class="fourth-image-text">Heartline midwaist jeans</div>
-                            <div class="fourth-flex-images-info">
-                                <div class="fourth-price-text">$170.00</div>
-                                <div class="fourth-add-to-favorites"><img src="assets/images/small.png" height="32px">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fourth-image-container">
-                        <img src="assets/images/image 12.png" alt="" class="fourth-image">
-                        <div class="fourth-middle">
-                            <div class="fourth-image-text">Heartline midwaist jeans</div>
-                            <div class="fourth-flex-images-info">
-                                <div class="fourth-price-text">$170.00</div>
-                                <div class="fourth-add-to-favorites"><img src="assets/images/small.png" height="32px">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fourth-image-container">
-                        <img src="assets/images/image 13.png" alt="" class="fourth-image">
-                        <div class="fourth-middle">
-                            <div class="fourth-image-text">Heartline midwaist jeans</div>
-                            <div class="fourth-flex-images-info">
-                                <div class="fourth-price-text">$170.00</div>
-                                <div class="fourth-add-to-favorites"><img src="assets/images/small.png" height="32px">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fourth-image-container">
-                        <img src="assets/images/image 14.png" alt="" class="fourth-image rs-space">
-                        <div class="fourth-middle">
-                            <div class="fourth-image-text"><a href='/venus-store-project/product.html'>Heartline midwaist jeans</a></div>
-                            <div class="fourth-flex-images-info">
-                                <div class="fourth-price-text">$170.00</div>
-                                <div class="fourth-add-to-favorites"><img src="assets/images/small.png" height="32px">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="instagram-shop-title">
-                    <a href="#">
-                        <h2>Shop Instagram</h2>
-                    </a> <a href="shop.html">
-                        <h2>Shop</h2>
-                    </a>
-                </div>
-                <div class="gallery">
-                    <figure class="gallery-item gallery-item--1">
-                        <img src="assets/images/image 3.png" alt="Gallery image 1" class="gallery-img">
-                    </figure>
-                    <figure class="gallery-item gallery-item--2">
-                        <img src="assets/images/image 4.png" alt="Gallery image 2" class="gallery-img">
-                    </figure>
-                    <figure class="gallery-item gallery-item--3">
-                        <img src="assets/images/image 5.png" alt="Gallery image 3" class="gallery-img">
-                    </figure>
-                    <figure class="gallery-item gallery-item--4">
-                        <img src="assets/images/image 6.png" alt="Gallery image 4" class="gallery-img">
-                    </figure>
-                    <figure class="gallery-item gallery-item--5">
-                        <img src="assets/images/image 7.png" alt="Gallery image 4" class="gallery-img">
-                    </figure>
-                </div>
-                <h2 class="hashtag">#VENUS</h2>
+        </header>
+        <main>
+            <section class="new-arrivals-section">
+                <h1>New collection</h1>
+                <p>Our easiest chuck-on-and-go staples come with a serious style heritage<span class="p-space"></span>
+                    that’s liberating, sexy, comfy and supremely cool.</p>
+                <button id="newarr-el">Shop new arrivals</button>
             </section>
-        </div>
-        <div id="myModal" class="modal">
-            <div class="modal-content">
-                <div class="close-pos">
-                <span class="close">&times;</span>
+            <section class="show-three-products">
+                <div class="flex-third-section">
+                    <div class="image-container">
+                        <img src="assets/images/image 8.png" alt="" class="image">
+                        <div class="middle">
+                            <div class="image-text">Pacifica bandits denim short</div>
+                            <div class="flex-images-info">
+                                <div class="price-text">$99.00</div>
+                                <div class="add-to-favorites"><img src="assets/images/wshl.png" height="30"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <img src="assets/images/image 10.png" alt="" class="image">
+                        <div class="middle">
+                            <div class="image-text">Pacifica bandits denim short</div>
+                            <div class="flex-images-info">
+                                <div class="price-text">$99.00</div>
+                                <div class="add-to-favorites"><img src="assets/images/wshl.png" height="30"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <img src="assets/images/image 9.png" alt="" class="image">
+                        <div class="middle">
+                            <div class="image-text">Pacifica bandits denim short</div>
+                            <div class="flex-images-info">
+                                <div class="price-text">$99.00</div>
+                                <div class="add-to-favorites"><img src="assets/images/wshl.png" height="30"></div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="third-section">
+                <div class="shop-denim">
+                    <h1>Sustainable denim</h1>
+                    <p>What started as a true ‘80s vintage pair of jeans,<span class="p-space"></span> finished as a
+                        re-energised, wider leg vintage jean with versatile detailing. </p>
+                    <button>Shop denim</button>
                 </div>
-                <h2>CREATE ACCOUNT</h2>
-                <form class="flex-modal-sign">
-                    <input type="text" placeholder="First Name">
-                    <input type="text" placeholder="Last Name">
-                    <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Password">
-                </form>
-                <label class="check">
-                    <p>
-                        Let's get personal! We'll send you only the good stuff:
-                    </p>
-                    <p>
-                        Exclusive early access to Sale, new arrivals and promotions. No nasties.
-                    </p>
-                    <input type="checkbox" checked="checked">
-                    <span class="checkmark"></span>
-                  </label>
-                  <h3>By signing up you agree to <span class="sign-in-text-effects"><a href='#'>Terms of Service</a></span> and <span class="sign-in-text-effects"><a href="#">Privacy Policy</a></span></h3>
-                  <button class="sign-in-btn">Sign up</button>
-                  <h4><span class="border-bottom">I have an account</span></h4>
+            </section>
+            <div class="container">
+                <section class="show-new-arrivals-section" id="newarrivals">
+                    <h2>New arrivals</h2>
+                    <div class="four-images">
+                        <div class="fourth-image-container">
+                            <img src="assets/images/image 11.png" alt="" class="fourth-image">
+                            <div class="fourth-middle">
+                                <div class="fourth-image-text">Heartline midwaist jeans</div>
+                                <div class="fourth-flex-images-info">
+                                    <div class="fourth-price-text">$170.00</div>
+                                    <div class="fourth-add-to-favorites"><img src="assets/images/small.png"
+                                            height="32px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fourth-image-container">
+                            <img src="assets/images/image 12.png" alt="" class="fourth-image">
+                            <div class="fourth-middle">
+                                <div class="fourth-image-text">Heartline midwaist jeans</div>
+                                <div class="fourth-flex-images-info">
+                                    <div class="fourth-price-text">$170.00</div>
+                                    <div class="fourth-add-to-favorites"><img src="assets/images/small.png"
+                                            height="32px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fourth-image-container">
+                            <img src="assets/images/image 13.png" alt="" class="fourth-image">
+                            <div class="fourth-middle">
+                                <div class="fourth-image-text">Heartline midwaist jeans</div>
+                                <div class="fourth-flex-images-info">
+                                    <div class="fourth-price-text">$170.00</div>
+                                    <div class="fourth-add-to-favorites"><img src="assets/images/small.png"
+                                            height="32px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fourth-image-container">
+                            <img src="assets/images/image 14.png" alt="" class="fourth-image rs-space">
+                            <div class="fourth-middle">
+                                <div class="fourth-image-text"><a href='/venus-store-project/product.html'>Heartline
+                                        midwaist jeans</a></div>
+                                <div class="fourth-flex-images-info">
+                                    <div class="fourth-price-text">$170.00</div>
+                                    <div class="fourth-add-to-favorites"><img src="assets/images/small.png"
+                                            height="32px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instagram-shop-title">
+                        <a href="#">
+                            <h2>Shop Instagram</h2>
+                        </a> <a href="shop.html">
+                            <h2>Shop</h2>
+                        </a>
+                    </div>
+                    <div class="gallery">
+                        <figure class="gallery-item gallery-item--1">
+                            <img src="assets/images/image 3.png" alt="Gallery image 1" class="gallery-img">
+                        </figure>
+                        <figure class="gallery-item gallery-item--2">
+                            <img src="assets/images/image 4.png" alt="Gallery image 2" class="gallery-img">
+                        </figure>
+                        <figure class="gallery-item gallery-item--3">
+                            <img src="assets/images/image 5.png" alt="Gallery image 3" class="gallery-img">
+                        </figure>
+                        <figure class="gallery-item gallery-item--4">
+                            <img src="assets/images/image 6.png" alt="Gallery image 4" class="gallery-img">
+                        </figure>
+                        <figure class="gallery-item gallery-item--5">
+                            <img src="assets/images/image 7.png" alt="Gallery image 4" class="gallery-img">
+                        </figure>
+                    </div>
+                    <h2 class="hashtag">#VENUS</h2>
+                </section>
+            </div>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="close-pos">
+                        <span class="close">&times;</span>
+                    </div>
+                    <h2>CREATE ACCOUNT</h2>
+                    <form class="flex-modal-sign">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                    </form>
+                    <label class="check">
+                        <p>
+                            Let's get personal! We'll send you only the good stuff:
+                        </p>
+                        <p>
+                            Exclusive early access to Sale, new arrivals and promotions. No nasties.
+                        </p>
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <h3>By signing up you agree to <span class="sign-in-text-effects"><a href='#'>Terms of
+                                Service</a></span> and <span class="sign-in-text-effects"><a href="#">Privacy
+                                Policy</a></span></h3>
+                    <button class="sign-in-btn">Sign up</button>
+                    <h4><span class="border-bottom">I have an account</span></h4>
                 </div>
             </div>
-                
+
             <div id="myBagModal" class="bag-modal">
                 <div class="bag-modal-content">
                     <div class="bag-close-pos">
-                    <span class="bag-close">&times;</span>
+                        <span class="bag-close">&times;</span>
                     </div>
                     <h3>BAG(2)</h3>
                     <h2>TOTAL: USD $590.00</h2>
                     <form action="/bag.html">
-                    <button class="view-bag-btn">View Bag</button>
+                        <button class="view-bag-btn">View Bag</button>
                     </form>
                     <button class="checkout-bag-btn">Checkout</button>
-                        <div class="flex-bag-images info-bag">
-                            <img src="/venus-store-project/assets/images/image 30.png">
-                            <span class="remove-from-bag">
-                                <a href="#">&#10006; REMOVE</a>
-                            </span>
-                            <span class="info-bag-text">
-                                <p>VICTORIOUS SPILT BACK TOP</p>
-                                <p>QUANTITY: 1</p>
-                                <p>SIZE: S</p>
-                                <p>USD $250.00</p>
-                            </span>
-                            <img src="/venus-store-project/assets/images/image 31.png">
-                        </div>
+                    <div class="flex-bag-images info-bag">
+                        <img src="/venus-store-project/assets/images/image 30.png">
+                        <span class="remove-from-bag">
+                            <a href="#">&#10006; REMOVE</a>
+                        </span>
+                        <span class="info-bag-text">
+                            <p>VICTORIOUS SPILT BACK TOP</p>
+                            <p>QUANTITY: 1</p>
+                            <p>SIZE: S</p>
+                            <p>USD $250.00</p>
+                        </span>
+                        <img src="/venus-store-project/assets/images/image 31.png">
                     </div>
                 </div>
-    </main>
-    <div class="container">
-        <footer>
-            <div class="footer-center-text">
-                <h4>SIGN UP FOR UPDATES</h4>
-                <p>Sign up for exclusive early sale access and tailored new arrivals.</p>
-                <form>
-                    <input type="email" placeholder="Your email address">
-                    <button type="submit" class="join-email">Join</button>
-                </form>
             </div>
-            <div class="lang-changer" id="toggle">
-            <button class="join-email">EN</button>
-            <button class="join-email">RO</button>
-        </div>
-            <div class="flex-footer">
-
-                <div>
-                    <a href="c-service.html"><h3>Customer Service</h3></a>
-                    <ul>
-                        <li><a href="#">ORDER ISSUES</a></li>
-                        <li><a href="#">DELIVERY</a></li>
-                        <li><a href="#">RETURNS & REFUNDS</a></li>
-                        <li><a href="#">PAYMENT</a></li>
-                        <li><a href="#">PRODUCTS & STOCK</a></li>
-                    </ul>
-                </div>
-
-
-                <div>
-                    <a href="info.html"><h3>Info</h3></a>
-                    <ul>
-                        <li><a href="#">GIFT VOUCHERS</a></li>
-                        <li><a href="#">SIZE GUIDE</a></li>
-                        <li><a href="#">CAREERS AT VENUS</a></li>
-                        <li><a href="#">ABOUT US</a></li>
-                    </ul>
-                </div>
-
-
-                <div>
-                    <h3>Follow us</h3>
-                    <ul>
-                        <li><a href="#"><img src="assets/images/fb-logo.png" height="24px"> FACEBOOK</a></li>
-                        <li><a href="#"><img src="assets/images/twitter-sign.png" height="24px"> TWITTER</a></li>
-                        <li><a href="#"><img src="assets/images/instagram.png" height="24px"> INSTAGRAM</a></li>
-                    </ul>
-                </div>
-
-
-                <div>
-                    <h3>Contact us</h3>
-                    <ul>
-                        <li class="normal-text"><a href="#">hello@venus.com</a></li>
-                        <li class="normal-text">+373 600 26 145</li>
-                        <li class="normal-text">Visit us at Moscova bd 48,<span class="p-space"></span>
-                            Chisinau, Moldova</li>
-                    </ul>
-                </div>
-            </div>
-
-
-            <div class="footer-columns">
-                <hr>
-                <div class="footer-colun-item">
-                    <a href="/c-service.html"><h2><span class="fotter-plus">+</span> CUSTOMER SERVICE</h2></a>
-                </div>
-                <hr>
-                <div class="footer-colun-item">
-                    <a href="/info.html"><h2><span class="fotter-plus">+</span> COMPANY</h2></a>
-                </div>
-                <hr>
-                <div class="footer-colun-item">
-                    <h2><span class="fotter-plus">+</span> FOLLOW US</h2>
-                </div>
-                <hr>
-                <h2><button name="spoiler_button" id="spoiler_button" type="button" class="footer-colun-item"><span class="fotter-plus">+</span> <span class="about-us-text">ABOUT US</span></button></h2>
-                <div id="spoiler_text" class="fadeout">
-                    <p>hello@venus.com</p>
-                    <p>+373 600 26 145</p>
-                    <p>Visit us at Moscova bd 48, Chisinau, Moldova</p>
-                </div> 
-                <hr>
-            </div>
-        </footer>
-    </div>
-</div>
-
-
-
-
-
-<div id="romanian">
-    <header class="first-page">
-        <nav class="navbar">
-            <div class="flex-menu-item">
-                <ul class="nav-menu navbar-animation">
-                    <li class="nav-item" id="arrivals-el">
-                        <a href="#newarrivals" class="nav-link"><span id="newArrivals-el">New arrivals</span></a>
-                    </li>
-                    <li class="nav-item" id="shop-el">
-                        <a href="" class="nav-link">Shop</a>
-                    </li>
-                    <li class="nav-item" id="collections-el">
-                        <a href="#" class="nav-link lang" key="collections">Collections</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="flex-menu-item">
-               <a href="/venus-store-project/" class="nav-brand-logo">VENUS</a>
-            </div>
-            <div class="flex-menu-item">
-                <ul class="nav-menu">
-                    <li class="nav-item">
-                        <div class="search-box">
-                            <button class="btn-search"></button>
-                            <input type="text" id="search-btn" class="input-search" placeholder="SEARCH">
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <span class="nav-link-right sign-modal" id="myBtn">Sign In</span>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link-right" id="myBagBtn">Bag (2)</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/venus-store-project/favourites.html"><img src="assets/images/wishlist-icon.png" height="24"></a>
-                    </li>
-                </ul>
-        </nav>
-        <div class="hamburger-menu">
-            <nav>
-                <div class="h-navbar">
-                  <div class="h-container h-nav-container">
-                      <input class="checkbox" type="checkbox" name="" id="" />
-                      <div class="h-hamburger-lines">
-                        <span class="h-line h-line1"></span>
-                        <span class="h-line h-line2"></span>
-                        <span class="h-line h-line3"></span>
-                      </div>  
-                    <div class="h-logo">
-                      <a href="/venus-store-project/"><h1>VENUS</h1></a>
-                    </div>
-                    <div class="h-menu-right">
-                        <img src="/venus-store-project/assets/images/search-icon-h.png">
-                        <a href="/venus-store-project/bag.html"><img src="/venus-store-project/assets/images/shopping-cart-icon.png"></a>
-                        <a href="/venus-store-project/favourites.html"><img src="/venus-store-project/assets/images/wishlist-icon-h.png"></a>
-                      </div>
-                    <div class="h-menu-items">
-                      <li><a href="/venus-store-project/#newarrivals">NEW ARRIVALS</a></li>
-                      <li><a href="/venus-store-project/shop.html">SHOP</a></li>
-                      <li><a href="/venus-store-project/collections.html">COLLECTIONS</a></li>
-                    </div>
-                  </div>
-                </div>
-              </nav>
-        </div>
-    </header>
-    <main>
-        <section class="new-arrivals-section">
-            <h1>New collection</h1>
-            <p>Our easiest chuck-on-and-go staples come with a serious style heritage<span class="p-space"></span>
-                that’s liberating, sexy, comfy and supremely cool.</p>
-            <button id="newarr-el">Shop new arrivals</button>
-        </section>
-        <section class="show-three-products">
-            <div class="flex-third-section">
-                <div class="image-container">
-                    <img src="assets/images/image 8.png" alt="" class="image">
-                    <div class="middle">
-                        <div class="image-text">Pacifica bandits denim short</div>
-                        <div class="flex-images-info">
-                            <div class="price-text">$99.00</div>
-                            <div class="add-to-favorites"><img src="assets/images/wshl.png" height="30"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="assets/images/image 10.png" alt="" class="image">
-                    <div class="middle">
-                        <div class="image-text">Pacifica bandits denim short</div>
-                        <div class="flex-images-info">
-                            <div class="price-text">$99.00</div>
-                            <div class="add-to-favorites"><img src="assets/images/wshl.png" height="30"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="image-container">
-                    <img src="assets/images/image 9.png" alt="" class="image">
-                    <div class="middle">
-                        <div class="image-text">Pacifica bandits denim short</div>
-                        <div class="flex-images-info">
-                            <div class="price-text">$99.00</div>
-                            <div class="add-to-favorites"><img src="assets/images/wshl.png" height="30"></div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-        <section class="third-section">
-            <div class="shop-denim">
-                <h1>Sustainable denim</h1>
-                <p>What started as a true ‘80s vintage pair of jeans,<span class="p-space"></span> finished as a
-                    re-energised, wider leg vintage jean with versatile detailing. </p>
-                <button>Shop denim</button>
-            </div>
-        </section>
+        </main>
         <div class="container">
-            <section class="show-new-arrivals-section" id="newarrivals">
-                <h2>New arrivals</h2>
-                <div class="four-images">
-                    <div class="fourth-image-container">
-                        <img src="assets/images/image 11.png" alt="" class="fourth-image">
-                        <div class="fourth-middle">
-                            <div class="fourth-image-text">Heartline midwaist jeans</div>
-                            <div class="fourth-flex-images-info">
-                                <div class="fourth-price-text">$170.00</div>
-                                <div class="fourth-add-to-favorites"><img src="assets/images/small.png" height="32px">
-                                </div>
-                            </div>
-                        </div>
+            <footer>
+                <div class="footer-center-text">
+                    <h4>SIGN UP FOR UPDATES</h4>
+                    <p>Sign up for exclusive early sale access and tailored new arrivals.</p>
+                    <form>
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit" class="join-email">Join</button>
+                    </form>
+                </div>
+                <div class="lang-changer" id="toggle">
+                    <button class="join-email">EN</button>
+                    <button class="join-email">RO</button>
+                </div>
+                <div class="flex-footer">
+
+                    <div>
+                        <a href="c-service.html">
+                            <h3>Customer Service</h3>
+                        </a>
+                        <ul>
+                            <li><a href="#">ORDER ISSUES</a></li>
+                            <li><a href="#">DELIVERY</a></li>
+                            <li><a href="#">RETURNS & REFUNDS</a></li>
+                            <li><a href="#">PAYMENT</a></li>
+                            <li><a href="#">PRODUCTS & STOCK</a></li>
+                        </ul>
                     </div>
-                    <div class="fourth-image-container">
-                        <img src="assets/images/image 12.png" alt="" class="fourth-image">
-                        <div class="fourth-middle">
-                            <div class="fourth-image-text">Heartline midwaist jeans</div>
-                            <div class="fourth-flex-images-info">
-                                <div class="fourth-price-text">$170.00</div>
-                                <div class="fourth-add-to-favorites"><img src="assets/images/small.png" height="32px">
-                                </div>
-                            </div>
-                        </div>
+
+
+                    <div>
+                        <a href="info.html">
+                            <h3>Info</h3>
+                        </a>
+                        <ul>
+                            <li><a href="#">GIFT VOUCHERS</a></li>
+                            <li><a href="#">SIZE GUIDE</a></li>
+                            <li><a href="#">CAREERS AT VENUS</a></li>
+                            <li><a href="#">ABOUT US</a></li>
+                        </ul>
                     </div>
-                    <div class="fourth-image-container">
-                        <img src="assets/images/image 13.png" alt="" class="fourth-image">
-                        <div class="fourth-middle">
-                            <div class="fourth-image-text">Heartline midwaist jeans</div>
-                            <div class="fourth-flex-images-info">
-                                <div class="fourth-price-text">$170.00</div>
-                                <div class="fourth-add-to-favorites"><img src="assets/images/small.png" height="32px">
-                                </div>
-                            </div>
-                        </div>
+
+
+                    <div>
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li><a href="#"><img src="assets/images/fb-logo.png" height="24px"> FACEBOOK</a></li>
+                            <li><a href="#"><img src="assets/images/twitter-sign.png" height="24px"> TWITTER</a></li>
+                            <li><a href="#"><img src="assets/images/instagram.png" height="24px"> INSTAGRAM</a></li>
+                        </ul>
                     </div>
-                    <div class="fourth-image-container">
-                        <img src="assets/images/image 14.png" alt="" class="fourth-image rs-space">
-                        <div class="fourth-middle">
-                            <div class="fourth-image-text"><a href='/venus-store-project/product.html'>Heartline midwaist jeans</a></div>
-                            <div class="fourth-flex-images-info">
-                                <div class="fourth-price-text">$170.00</div>
-                                <div class="fourth-add-to-favorites"><img src="assets/images/small.png" height="32px">
-                                </div>
-                            </div>
-                        </div>
+
+
+                    <div>
+                        <h3>Contact us</h3>
+                        <ul>
+                            <li class="normal-text"><a href="#">hello@venus.com</a></li>
+                            <li class="normal-text">+373 600 26 145</li>
+                            <li class="normal-text">Visit us at Moscova bd 48,<span class="p-space"></span>
+                                Chisinau, Moldova</li>
+                        </ul>
                     </div>
                 </div>
-                <div class="instagram-shop-title">
-                    <a href="#">
-                        <h2>Shop Instagram</h2>
-                    </a> <a href="shop.html">
-                        <h2>Shop</h2>
-                    </a>
+
+
+                <div class="footer-columns">
+                    <hr>
+                    <div class="footer-colun-item">
+                        <a href="/c-service.html">
+                            <h2><span class="fotter-plus">+</span> CUSTOMER SERVICE</h2>
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="footer-colun-item">
+                        <a href="/info.html">
+                            <h2><span class="fotter-plus">+</span> COMPANY</h2>
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="footer-colun-item">
+                        <h2><span class="fotter-plus">+</span> FOLLOW US</h2>
+                    </div>
+                    <hr>
+                    <h2><button name="spoiler_button" id="spoiler_button" type="button" class="footer-colun-item"><span
+                                class="fotter-plus">+</span> <span class="about-us-text">ABOUT US</span></button></h2>
+                    <div id="spoiler_text" class="fadeout">
+                        <p>hello@venus.com</p>
+                        <p>+373 600 26 145</p>
+                        <p>Visit us at Moscova bd 48, Chisinau, Moldova</p>
+                    </div>
+                    <hr>
                 </div>
-                <div class="gallery">
-                    <figure class="gallery-item gallery-item--1">
-                        <img src="assets/images/image 3.png" alt="Gallery image 1" class="gallery-img">
-                    </figure>
-                    <figure class="gallery-item gallery-item--2">
-                        <img src="assets/images/image 4.png" alt="Gallery image 2" class="gallery-img">
-                    </figure>
-                    <figure class="gallery-item gallery-item--3">
-                        <img src="assets/images/image 5.png" alt="Gallery image 3" class="gallery-img">
-                    </figure>
-                    <figure class="gallery-item gallery-item--4">
-                        <img src="assets/images/image 6.png" alt="Gallery image 4" class="gallery-img">
-                    </figure>
-                    <figure class="gallery-item gallery-item--5">
-                        <img src="assets/images/image 7.png" alt="Gallery image 4" class="gallery-img">
-                    </figure>
-                </div>
-                <h2 class="hashtag">#VENUS</h2>
-            </section>
+            </footer>
         </div>
-        <div id="myModal" class="modal">
-            <div class="modal-content">
-                <div class="close-pos">
-                <span class="close">&times;</span>
+    </div>
+
+
+
+
+
+    <div id="romanian">
+        <header class="first-page">
+            <nav class="navbar">
+                <div class="flex-menu-item">
+                    <ul class="nav-menu navbar-animation">
+                        <li class="nav-item" id="arrivals-el">
+                            <a href="#newarrivals" class="nav-link"><span id="newArrivals-el">New arrivals</span></a>
+                        </li>
+                        <li class="nav-item" id="shop-el">
+                            <a href="" class="nav-link">Shop</a>
+                        </li>
+                        <li class="nav-item" id="collections-el">
+                            <a href="#" class="nav-link lang" key="collections">Collections</a>
+                        </li>
+                    </ul>
                 </div>
-                <h2>CREATE ACCOUNT</h2>
-                <form class="flex-modal-sign">
-                    <input type="text" placeholder="First Name">
-                    <input type="text" placeholder="Last Name">
-                    <input type="email" placeholder="Email">
-                    <input type="password" placeholder="Password">
-                </form>
-                <label class="check">
-                    <p>
-                        Let's get personal! We'll send you only the good stuff:
-                    </p>
-                    <p>
-                        Exclusive early access to Sale, new arrivals and promotions. No nasties.
-                    </p>
-                    <input type="checkbox" checked="checked">
-                    <span class="checkmark"></span>
-                  </label>
-                  <h3>By signing up you agree to <span class="sign-in-text-effects"><a href='#'>Terms of Service</a></span> and <span class="sign-in-text-effects"><a href="#">Privacy Policy</a></span></h3>
-                  <button class="sign-in-btn">Sign up</button>
-                  <h4><span class="border-bottom">I have an account</span></h4>
+                <div class="flex-menu-item">
+                    <a href="/venus-store-project/" class="nav-brand-logo">VENUS</a>
+                </div>
+                <div class="flex-menu-item">
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <div class="search-box">
+                                <button class="btn-search"></button>
+                                <input type="text" id="search-btn" class="input-search" placeholder="SEARCH">
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <span class="nav-link-right sign-modal" id="myBtn">Sign In</span>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link-right" id="myBagBtn">Bag (2)</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/venus-store-project/favourites.html"><img src="assets/images/wishlist-icon.png"
+                                    height="24"></a>
+                        </li>
+                    </ul>
+            </nav>
+            <div class="hamburger-menu">
+                <nav>
+                    <div class="h-navbar">
+                        <div class="h-container h-nav-container">
+                            <input class="checkbox" type="checkbox" name="" id="" />
+                            <div class="h-hamburger-lines">
+                                <span class="h-line h-line1"></span>
+                                <span class="h-line h-line2"></span>
+                                <span class="h-line h-line3"></span>
+                            </div>
+                            <div class="h-logo">
+                                <a href="/venus-store-project/">
+                                    <h1>VENUS</h1>
+                                </a>
+                            </div>
+                            <div class="h-menu-right">
+                                <img src="/venus-store-project/assets/images/search-icon-h.png">
+                                <a href="/venus-store-project/bag.html"><img
+                                        src="/venus-store-project/assets/images/shopping-cart-icon.png"></a>
+                                <a href="/venus-store-project/favourites.html"><img
+                                        src="/venus-store-project/assets/images/wishlist-icon-h.png"></a>
+                            </div>
+                            <div class="h-menu-items">
+                                <li><a href="/venus-store-project/#newarrivals">NEW ARRIVALS</a></li>
+                                <li><a href="/venus-store-project/shop.html">SHOP</a></li>
+                                <li><a href="/venus-store-project/collections.html">COLLECTIONS</a></li>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="new-arrivals-section">
+                <h1>New collection</h1>
+                <p>Our easiest chuck-on-and-go staples come with a serious style heritage<span class="p-space"></span>
+                    that’s liberating, sexy, comfy and supremely cool.</p>
+                <button id="newarr-el">Shop new arrivals</button>
+            </section>
+            <section class="show-three-products">
+                <div class="flex-third-section">
+                    <div class="image-container">
+                        <img src="assets/images/image 8.png" alt="" class="image">
+                        <div class="middle">
+                            <div class="image-text">Pacifica bandits denim short</div>
+                            <div class="flex-images-info">
+                                <div class="price-text">$99.00</div>
+                                <div class="add-to-favorites"><img src="assets/images/wshl.png" height="30"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <img src="assets/images/image 10.png" alt="" class="image">
+                        <div class="middle">
+                            <div class="image-text">Pacifica bandits denim short</div>
+                            <div class="flex-images-info">
+                                <div class="price-text">$99.00</div>
+                                <div class="add-to-favorites"><img src="assets/images/wshl.png" height="30"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <img src="assets/images/image 9.png" alt="" class="image">
+                        <div class="middle">
+                            <div class="image-text">Pacifica bandits denim short</div>
+                            <div class="flex-images-info">
+                                <div class="price-text">$99.00</div>
+                                <div class="add-to-favorites"><img src="assets/images/wshl.png" height="30"></div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="third-section">
+                <div class="shop-denim">
+                    <h1>Sustainable denim</h1>
+                    <p>What started as a true ‘80s vintage pair of jeans,<span class="p-space"></span> finished as a
+                        re-energised, wider leg vintage jean with versatile detailing. </p>
+                    <button>Shop denim</button>
+                </div>
+            </section>
+            <div class="container">
+                <section class="show-new-arrivals-section" id="newarrivals">
+                    <h2>New arrivals</h2>
+                    <div class="four-images">
+                        <div class="fourth-image-container">
+                            <img src="assets/images/image 11.png" alt="" class="fourth-image">
+                            <div class="fourth-middle">
+                                <div class="fourth-image-text">Heartline midwaist jeans</div>
+                                <div class="fourth-flex-images-info">
+                                    <div class="fourth-price-text">$170.00</div>
+                                    <div class="fourth-add-to-favorites"><img src="assets/images/small.png"
+                                            height="32px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fourth-image-container">
+                            <img src="assets/images/image 12.png" alt="" class="fourth-image">
+                            <div class="fourth-middle">
+                                <div class="fourth-image-text">Heartline midwaist jeans</div>
+                                <div class="fourth-flex-images-info">
+                                    <div class="fourth-price-text">$170.00</div>
+                                    <div class="fourth-add-to-favorites"><img src="assets/images/small.png"
+                                            height="32px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fourth-image-container">
+                            <img src="assets/images/image 13.png" alt="" class="fourth-image">
+                            <div class="fourth-middle">
+                                <div class="fourth-image-text">Heartline midwaist jeans</div>
+                                <div class="fourth-flex-images-info">
+                                    <div class="fourth-price-text">$170.00</div>
+                                    <div class="fourth-add-to-favorites"><img src="assets/images/small.png"
+                                            height="32px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fourth-image-container">
+                            <img src="assets/images/image 14.png" alt="" class="fourth-image rs-space">
+                            <div class="fourth-middle">
+                                <div class="fourth-image-text"><a href='/venus-store-project/product.html'>Heartline
+                                        midwaist jeans</a></div>
+                                <div class="fourth-flex-images-info">
+                                    <div class="fourth-price-text">$170.00</div>
+                                    <div class="fourth-add-to-favorites"><img src="assets/images/small.png"
+                                            height="32px">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="instagram-shop-title">
+                        <a href="#">
+                            <h2>Shop Instagram</h2>
+                        </a> <a href="shop.html">
+                            <h2>Shop</h2>
+                        </a>
+                    </div>
+                    <div class="gallery">
+                        <figure class="gallery-item gallery-item--1">
+                            <img src="assets/images/image 3.png" alt="Gallery image 1" class="gallery-img">
+                        </figure>
+                        <figure class="gallery-item gallery-item--2">
+                            <img src="assets/images/image 4.png" alt="Gallery image 2" class="gallery-img">
+                        </figure>
+                        <figure class="gallery-item gallery-item--3">
+                            <img src="assets/images/image 5.png" alt="Gallery image 3" class="gallery-img">
+                        </figure>
+                        <figure class="gallery-item gallery-item--4">
+                            <img src="assets/images/image 6.png" alt="Gallery image 4" class="gallery-img">
+                        </figure>
+                        <figure class="gallery-item gallery-item--5">
+                            <img src="assets/images/image 7.png" alt="Gallery image 4" class="gallery-img">
+                        </figure>
+                    </div>
+                    <h2 class="hashtag">#VENUS</h2>
+                </section>
+            </div>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <div class="close-pos">
+                        <span class="close">&times;</span>
+                    </div>
+                    <h2>CREATE ACCOUNT</h2>
+                    <form class="flex-modal-sign">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                    </form>
+                    <label class="check">
+                        <p>
+                            Let's get personal! We'll send you only the good stuff:
+                        </p>
+                        <p>
+                            Exclusive early access to Sale, new arrivals and promotions. No nasties.
+                        </p>
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                    </label>
+                    <h3>By signing up you agree to <span class="sign-in-text-effects"><a href='#'>Terms of
+                                Service</a></span> and <span class="sign-in-text-effects"><a href="#">Privacy
+                                Policy</a></span></h3>
+                    <button class="sign-in-btn">Sign up</button>
+                    <h4><span class="border-bottom">I have an account</span></h4>
                 </div>
             </div>
-                
+
             <div id="myBagModal" class="bag-modal">
                 <div class="bag-modal-content">
                     <div class="bag-close-pos">
-                    <span class="bag-close">&times;</span>
+                        <span class="bag-close">&times;</span>
                     </div>
                     <h3>BAG(2)</h3>
                     <h2>TOTAL: USD $590.00</h2>
                     <form action="/bag.html">
-                    <button class="view-bag-btn">View Bag</button>
+                        <button class="view-bag-btn">View Bag</button>
                     </form>
                     <button class="checkout-bag-btn">Checkout</button>
-                        <div class="flex-bag-images info-bag">
-                            <img src="/venus-store-project/assets/images/image 30.png">
-                            <span class="remove-from-bag">
-                                <a href="#">&#10006; REMOVE</a>
-                            </span>
-                            <span class="info-bag-text">
-                                <p>VICTORIOUS SPILT BACK TOP</p>
-                                <p>QUANTITY: 1</p>
-                                <p>SIZE: S</p>
-                                <p>USD $250.00</p>
-                            </span>
-                            <img src="/venus-store-project/assets/images/image 31.png">
-                        </div>
+                    <div class="flex-bag-images info-bag">
+                        <img src="/venus-store-project/assets/images/image 30.png">
+                        <span class="remove-from-bag">
+                            <a href="#">&#10006; REMOVE</a>
+                        </span>
+                        <span class="info-bag-text">
+                            <p>VICTORIOUS SPILT BACK TOP</p>
+                            <p>QUANTITY: 1</p>
+                            <p>SIZE: S</p>
+                            <p>USD $250.00</p>
+                        </span>
+                        <img src="/venus-store-project/assets/images/image 31.png">
                     </div>
                 </div>
-    </main>
-    <div class="container">
-        <footer>
-            <div class="footer-center-text">
-                <h4>SIGN UP FOR UPDATES</h4>
-                <p>Sign up for exclusive early sale access and tailored new arrivals.</p>
-                <form>
-                    <input type="email" placeholder="Your email address">
-                    <button type="submit" class="join-email">Join</button>
-                </form>
             </div>
-            <div class="lang-changer" id="toggle">
-                <button class="join-email">EN</button>
-                <button class="join-email">RO</button>
-            </div>
-            <div class="flex-footer">
+        </main>
+        <div class="container">
+            <footer>
+                <div class="footer-center-text">
+                    <h4>SIGN UP FOR UPDATES</h4>
+                    <p>Sign up for exclusive early sale access and tailored new arrivals.</p>
+                    <form>
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit" class="join-email">Join</button>
+                    </form>
+                </div>
+                <div class="lang-changer" id="toggle">
+                    <button class="join-email">EN</button>
+                    <button class="join-email">RO</button>
+                </div>
+                <div class="flex-footer">
 
 
-                <div>
-                    <a href="c-service.html"><h3>Customer Service</h3></a>
-                    <ul>
-                        <li><a href="#">ORDER ISSUES</a></li>
-                        <li><a href="#">DELIVERY</a></li>
-                        <li><a href="#">RETURNS & REFUNDS</a></li>
-                        <li><a href="#">PAYMENT</a></li>
-                        <li><a href="#">PRODUCTS & STOCK</a></li>
-                    </ul>
+                    <div>
+                        <a href="c-service.html">
+                            <h3>Customer Service</h3>
+                        </a>
+                        <ul>
+                            <li><a href="#">ORDER ISSUES</a></li>
+                            <li><a href="#">DELIVERY</a></li>
+                            <li><a href="#">RETURNS & REFUNDS</a></li>
+                            <li><a href="#">PAYMENT</a></li>
+                            <li><a href="#">PRODUCTS & STOCK</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div>
+                        <a href="info.html">
+                            <h3>Info</h3>
+                        </a>
+                        <ul>
+                            <li><a href="#">GIFT VOUCHERS</a></li>
+                            <li><a href="#">SIZE GUIDE</a></li>
+                            <li><a href="#">CAREERS AT VENUS</a></li>
+                            <li><a href="#">ABOUT US</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div>
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li><a href="#"><img src="assets/images/fb-logo.png" height="24px"> FACEBOOK</a></li>
+                            <li><a href="#"><img src="assets/images/twitter-sign.png" height="24px"> TWITTER</a></li>
+                            <li><a href="#"><img src="assets/images/instagram.png" height="24px"> INSTAGRAM</a></li>
+                        </ul>
+                    </div>
+
+
+                    <div>
+                        <h3>Contact us</h3>
+                        <ul>
+                            <li class="normal-text"><a href="#">hello@venus.com</a></li>
+                            <li class="normal-text">+373 600 26 145</li>
+                            <li class="normal-text">Visit us at Moscova bd 48,<span class="p-space"></span>
+                                Chisinau, Moldova</li>
+                        </ul>
+                    </div>
                 </div>
 
 
-                <div>
-                    <a href="info.html"><h3>Info</h3></a>
-                    <ul>
-                        <li><a href="#">GIFT VOUCHERS</a></li>
-                        <li><a href="#">SIZE GUIDE</a></li>
-                        <li><a href="#">CAREERS AT VENUS</a></li>
-                        <li><a href="#">ABOUT US</a></li>
-                    </ul>
+                <div class="footer-columns">
+                    <hr>
+                    <div class="footer-colun-item">
+                        <a href="/c-service.html">
+                            <h2><span class="fotter-plus">+</span> CUSTOMER SERVICE</h2>
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="footer-colun-item">
+                        <a href="/info.html">
+                            <h2><span class="fotter-plus">+</span> COMPANY</h2>
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="footer-colun-item">
+                        <h2><span class="fotter-plus">+</span> FOLLOW US</h2>
+                    </div>
+                    <hr>
+                    <h2><button name="spoiler_button" id="spoiler_button" type="button" class="footer-colun-item"><span
+                                class="fotter-plus">+</span> <span class="about-us-text">ABOUT US</span></button></h2>
+                    <div id="spoiler_text" class="fadeout">
+                        <p>hello@venus.com</p>
+                        <p>+373 600 26 145</p>
+                        <p>Visit us at Moscova bd 48, Chisinau, Moldova</p>
+                    </div>
+                    <hr>
                 </div>
-
-
-                <div>
-                    <h3>Follow us</h3>
-                    <ul>
-                        <li><a href="#"><img src="assets/images/fb-logo.png" height="24px"> FACEBOOK</a></li>
-                        <li><a href="#"><img src="assets/images/twitter-sign.png" height="24px"> TWITTER</a></li>
-                        <li><a href="#"><img src="assets/images/instagram.png" height="24px"> INSTAGRAM</a></li>
-                    </ul>
-                </div>
-
-
-                <div>
-                    <h3>Contact us</h3>
-                    <ul>
-                        <li class="normal-text"><a href="#">hello@venus.com</a></li>
-                        <li class="normal-text">+373 600 26 145</li>
-                        <li class="normal-text">Visit us at Moscova bd 48,<span class="p-space"></span>
-                            Chisinau, Moldova</li>
-                    </ul>
-                </div>
-            </div>
-
-
-            <div class="footer-columns">
-                <hr>
-                <div class="footer-colun-item">
-                    <a href="/c-service.html"><h2><span class="fotter-plus">+</span> CUSTOMER SERVICE</h2></a>
-                </div>
-                <hr>
-                <div class="footer-colun-item">
-                    <a href="/info.html"><h2><span class="fotter-plus">+</span> COMPANY</h2></a>
-                </div>
-                <hr>
-                <div class="footer-colun-item">
-                    <h2><span class="fotter-plus">+</span> FOLLOW US</h2>
-                </div>
-                <hr>
-                <h2><button name="spoiler_button" id="spoiler_button" type="button" class="footer-colun-item"><span class="fotter-plus">+</span> <span class="about-us-text">ABOUT US</span></button></h2>
-                <div id="spoiler_text" class="fadeout">
-                    <p>hello@venus.com</p>
-                    <p>+373 600 26 145</p>
-                    <p>Visit us at Moscova bd 48, Chisinau, Moldova</p>
-                </div> 
-                <hr>
-            </div>
-        </footer>
+            </footer>
+        </div>
     </div>
-</div>
     <script>
         const divToggleVis = document.getElementById('spoiler_text')
         const button = document.getElementById('spoiler_button')
@@ -693,7 +736,8 @@
                 divToggleVis.className = 'fadeout'
             }
 
-            if (button.innerHTML === `<span class="fotter-plus">-</span> <span class="about-us-text">ABOUT US</span>`) {
+            if (button.innerHTML ===
+                `<span class="fotter-plus">-</span> <span class="about-us-text">ABOUT US</span>`) {
                 button.innerHTML = `<span class="fotter-plus">+</span> <span class="about-us-text">ABOUT US</span>`
             } else {
                 button.innerHTML = `<span class="fotter-plus">-</span> <span class="about-us-text">ABOUT US</span>`
@@ -707,17 +751,17 @@
         const span = document.getElementsByClassName("close")[0]
 
         btn.onclick = function click() {
-        modal.style.display = "block"
+            modal.style.display = "block"
         }
 
-        span.onclick = function() {
-        modal.style.display = "none"
-        }
-
-        window.onclick = function(event) {
-        if (event.target == modal) {
+        span.onclick = function () {
             modal.style.display = "none"
         }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none"
+            }
         }
 
         const bagModal = document.getElementById("myBagModal")
@@ -727,28 +771,28 @@
         const bagSpan = document.getElementsByClassName("bag-close")[0]
 
         bagBtn.onclick = function click() {
-        bagModal.style.display = "block"
+            bagModal.style.display = "block"
         }
 
-        bagSpan.onclick = function() {
-        bagModal.style.display = "none"
-        }
-
-        window.onclick = function(event) {
-        if (event.target == bagModal) {
+        bagSpan.onclick = function () {
             bagModal.style.display = "none"
         }
+
+        window.onclick = function (event) {
+            if (event.target == bagModal) {
+                bagModal.style.display = "none"
+            }
         }
-        
-        document.getElementById("shop-el").addEventListener("click", function() {
+
+        document.getElementById("shop-el").addEventListener("click", function () {
             window.location.href = "/venus-store-project/shop.html"
         })
 
-        document.getElementById("collections-el").addEventListener("click", function() {
+        document.getElementById("collections-el").addEventListener("click", function () {
             window.location.href = "/venus-store-project/collections.html"
         })
 
-        document.getElementById("arrivals-el").addEventListener("click", function() {
+        document.getElementById("arrivals-el").addEventListener("click", function () {
             window.location.href = "/venus-store-project/index.html#newarrivals"
         })
     </script>
@@ -756,15 +800,15 @@
 
 
     <script>
-        $(function() {        
-            $('#toggle > button').click(function() {
-    var ix = $(this).index();
+        $(function () {
+            $('#toggle > button').click(function () {
+                var ix = $(this).index();
 
-    $('#english').toggle( ix === 0 );
-    $('#romanian').toggle( ix === 1 );
-});  
+                $('#english').toggle(ix === 0);
+                $('#romanian').toggle(ix === 1);
+            });
         });
-    </script>   
+    </script>
 </body>
 
 </html>
